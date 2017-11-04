@@ -28,6 +28,7 @@ class App extends Component {
   }
 
   render() {
+    //To ensure that the search occurs only after 300ms after key off.
     const videoSearch = _.debounce(term => {
       this.videoSearch(term);
     }, 300);
