@@ -1,25 +1,3 @@
-# ReduxSimpleStarter
+This is a first attempt at building a react app on learning from Stephen Grider's amazing course on React. This is a subset of Youtube and gets relevant videos for search terms that we enter by talking to the Youtube API. 
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
-
-### Getting Started
-
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
+It has the same layout as Youtube - in the sense that, there is a parent component with search bar, video list, video list items and video details as child compnents. The application makes use of State, Props and Callbacks to communicate between components.  
